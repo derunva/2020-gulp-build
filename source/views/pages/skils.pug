@@ -1,0 +1,19 @@
+extends ../layouts/simple.layout.pug
+block content
+  h1 skills
+  -
+    var skills = [
+      "Ruby on Rails",
+      "HTML",
+      "CSS",
+      "JS",
+      "SASS/SCSS",
+      "Vue.js",
+      "express",
+      "node",
+      "..."
+    ]
+  ul
+    each skill in skills 
+      li #{skill}
+    li last item

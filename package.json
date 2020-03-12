@@ -1,0 +1,35 @@
+{
+  "name": "try-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "clean-css": "^4.2.3",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cleancss": "^0.2.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "webpack": "^4.42.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ]
+}

@@ -1,0 +1,25 @@
+extends ../layouts/simple.layout.pug
+block content
+  -
+    var list = [
+      {
+        title: "derun.va@gmail.com",
+        link: "mailto:derun.va@gmail.com"
+      },
+      {
+        title: "+3 8 (096) 85 94 902",
+        link: "tel:380968594902"
+      },
+      {
+        title: "telegram",
+        link: "https://msng.link/o/?volodymyrderun=tg"
+      },
+      {
+        title: "skype",
+        link: "skype:derunvova?call"
+      }
+    ]
+  ul
+    each item in list
+      li
+        a(href=item.link) #{item.title}
