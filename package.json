@@ -22,7 +22,7 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-cleancss": "^0.2.2",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "webpack": "^4.42.0",
     "webpack-stream": "^5.2.1"
   },
